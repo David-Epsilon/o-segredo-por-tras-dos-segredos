@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
               O Segredo por trás dos Segredos
             </div>
             <p className="text-slate-500 text-sm leading-relaxed max-w-xs">
-              Uma jornada transformadora unindo ciência, espiritualidade e autoconhecimento profundo sob a ótica de Pedro Javier Molina.
+              Explorando as Medicinas Ancestrais e o Autoconhecimento sob a ótica de Pedro Javier Molina e o Instituto Samadhi.
             </p>
           </div>
           <div>
@@ -26,16 +26,15 @@ const Footer: React.FC = () => {
           <div>
             <h4 className="font-bold text-white mb-6 uppercase tracking-widest text-xs">Acompanhe o Autor</h4>
             <div className="flex space-x-4">
-              <a href="#" className="w-10 h-10 rounded-full bg-slate-900 flex items-center justify-center text-slate-400 hover:bg-amber-500 hover:text-slate-950 transition-all">FB</a>
-              <a href="#" className="w-10 h-10 rounded-full bg-slate-900 flex items-center justify-center text-slate-400 hover:bg-amber-500 hover:text-slate-950 transition-all">IG</a>
-              <a href="#" className="w-10 h-10 rounded-full bg-slate-900 flex items-center justify-center text-slate-400 hover:bg-amber-500 hover:text-slate-950 transition-all">YT</a>
+              <a href="https://www.instagram.com/en.busca.del.samadhi/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-slate-900 flex items-center justify-center text-slate-400 hover:bg-amber-500 hover:text-slate-950 transition-all font-bold">IG</a>
+              <a href="#" className="w-10 h-10 rounded-full bg-slate-900 flex items-center justify-center text-slate-400 hover:bg-amber-500 hover:text-slate-950 transition-all font-bold">YT</a>
             </div>
-            <p className="mt-4 text-xs text-slate-600">contato@pedrojaviermolina.com.br</p>
+            <p className="mt-4 text-xs text-slate-600">@en.busca.del.samadhi</p>
           </div>
         </div>
         <div className="pt-8 border-t border-slate-900 text-center">
           <p className="text-slate-600 text-xs">
-            © 2025 Pedro Javier Molina - Todos os direitos reservados. 
+            © 2025 Pedro Javier Molina - Todos os direitos reservados.
             <br className="md:hidden" /> Desenvolvido para despertar o potencial humano.
           </p>
         </div>

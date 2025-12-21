@@ -13,13 +13,13 @@ const Hero: React.FC = () => {
       <div className="container mx-auto px-6 relative z-10 grid lg:grid-cols-2 gap-12 items-center">
         <div className="text-center lg:text-left space-y-8 animate-fade-in-up">
           <div className="inline-block px-4 py-1 rounded-full bg-amber-500/10 border border-amber-500/20 text-amber-500 text-sm font-bold tracking-widest uppercase mb-4">
-            Revelação Ancestral e Científica
+            Revelação Ancestral e Espiritual
           </div>
-          <h1 className="font-cinzel text-4xl md:text-6xl font-bold leading-tight gold-glow">
-            Descubra a verdade ancestral que une <span className="text-amber-500">Ciência e Espiritualidade</span>
+          <h1 className="font-cinzel text-4xl md:text-6xl font-bold leading-tight gold-glow uppercase">
+            Descubra a verdade ancestral que une <span className="text-amber-500">O SER E A REALIDADE</span>
           </h1>
           <p className="text-lg md:text-xl text-slate-300 max-w-xl mx-auto lg:mx-0 font-light">
-            O segredo científico que permaneceu oculto por milênios: o poder do diamagnetismo do seu sangue na manifestação da sua realidade.
+            O segredo ancestral que permaneceu oculto por milênios: o despertar da consciência na manifestação da sua realidade.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
             <a
@@ -44,7 +44,7 @@ const Hero: React.FC = () => {
           <div className="relative z-10 w-full max-w-md book-shadow">
             {/* Placeholder for Book Cover Image */}
             <img
-              src="https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&q=80&w=800"
+              src="./cover.png"
               alt="Capa do Livro O Segredo por trás dos Segredos"
               className="rounded-lg shadow-2xl border border-slate-700/50"
             />

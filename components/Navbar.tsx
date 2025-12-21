@@ -13,8 +13,8 @@ const Navbar: React.FC = () => {
   return (
     <nav className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-slate-950/90 backdrop-blur-md py-3 shadow-lg border-b border-amber-500/10' : 'bg-transparent py-5'}`}>
       <div className="container mx-auto px-6 flex justify-between items-center">
-        <div className="font-cinzel text-xl font-bold text-amber-500 tracking-tighter">
-          O SEGREDO <span className="text-white">POR TRÁS</span>
+        <div className="font-cinzel text-xl font-bold text-amber-500 tracking-tighter uppercase">
+          O SEGREDO <span className="text-white">POR TRÁS DOS SEGREDOS</span>
         </div>
         <div className="hidden md:flex space-x-8 text-sm font-semibold text-slate-300 uppercase tracking-widest">
           <a href="#solucao" className="hover:text-amber-500 transition-colors">O Livro</a>

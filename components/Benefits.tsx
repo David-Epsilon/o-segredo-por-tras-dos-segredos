@@ -11,12 +11,12 @@ const BenefitCard = ({ icon, title, desc }: { icon: string, title: string, desc:
 
 const Benefits: React.FC = () => {
   const items = [
-    { icon: "🌌", title: "Molda sua Realidade", desc: "Compreenda cientificamente como sua vibração pessoal atua como um filtro da sua existência." },
-    { icon: "⚡", title: "Campo Energético", desc: "Aprenda a elevar seu campo de forma prática, mensurável e sem misticismos superficiais." },
-    { icon: "🩸", title: "Diamagnetismo do Sangue", desc: "Ative conscientemente o poder oculto no seu próprio corpo físico para manifestação real." },
-    { icon: "🧘", title: "Técnicas Ancestrais", desc: "Domine práticas de Jesus, Buda e tradições herméticas validadas pela ciência moderna." },
+    { icon: "🌌", title: "Molda sua Realidade", desc: "Compreenda como sua vibração pessoal atua como um filtro da sua existência." },
+    { icon: "⚡", title: "Campo Energético", desc: "Aprenda a elevar seu campo de forma prática e sem misticismos superficiais." },
+    { icon: "🩸", title: "A Força Vital do Ser", desc: "Ative conscientemente o poder oculto no seu próprio corpo para a manifestação da sua realidade." },
+    { icon: "🧘", title: "Técnicas Ancestrais", desc: "Domine práticas de Jesus, Buda e tradições milenares focadas na expansão da consciência." },
     { icon: "🔓", title: "Quebra de Padrões", desc: "Liberte-se de ciclos limitantes e autossabotagem através do autoconhecimento profundo." },
-    { icon: "🧠", title: "Razão e Espírito", desc: "Una espiritualidade e ciência em uma visão integrada e coerente da vida." },
+    { icon: "🧠", title: "Razão e Espírito", desc: "Una o espírito e a matéria em uma visão integrada e coerente da vida." },
     { icon: "💞", title: "Relacionamentos", desc: "Transforme sua vida afetiva através da compreensão das frequências de ressonância." },
     { icon: "✨", title: "Autonomia Sensorial", desc: "Saia da 'matrix' moderna e recupere seu poder de decisão e manifestação consciente." }
   ];

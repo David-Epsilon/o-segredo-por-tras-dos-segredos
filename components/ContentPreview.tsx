@@ -6,7 +6,7 @@ const ContentPreview: React.FC = () => {
     { num: "01", title: "O Chamado ao Segredo", desc: "A jornada de Pedro Molina e o despertar para o invisível." },
     { num: "06", title: "O Princípio da Criação é Energia", desc: "A coerência entre mente, emoção e corpo como fonte de manifestação." },
     { num: "09", title: "A Lei da Vibração não Atrai, Repele", desc: "O mecanismo real por trás da manifestação da realidade." },
-    { num: "11", title: "Conexão Oculta: Espiritualidade e Diamagnetismo", desc: "A revelação física sobre o sangue humano e a ação divina." },
+    { num: "11", title: "Conexão Oculta: Espiritualidade e o Despertar do Ser", desc: "A revelação profunda sobre o corpo humano e a ação divina." },
     { num: "18", title: "A Lei Espiritual da Manifestação", desc: "Práticas aplicáveis para transformar sua existência agora." }
   ];
 
@@ -22,7 +22,7 @@ const ContentPreview: React.FC = () => {
               <div className="text-slate-500 uppercase text-xs tracking-widest">Páginas de Sabedoria</div>
             </div>
           </div>
-          
+
           <div className="lg:w-2/3 grid gap-6">
             {chapters.map((ch, i) => (
               <div key={i} className="flex items-center space-x-6 p-6 rounded-2xl hover:bg-slate-800 transition-colors border border-transparent hover:border-amber-500/20 group">

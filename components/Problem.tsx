@@ -15,7 +15,7 @@ const Problem: React.FC = () => {
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h2 className="font-cinzel text-3xl md:text-4xl font-bold mb-6">Por que a "Lei da Atração" tradicional falhou com você?</h2>
           <p className="text-slate-400 text-lg">
-            Durante anos, fomos ensinados que "atraímos o que vibramos". Mas a física nos mostra algo diferente e muito mais poderoso.
+            Durante anos, fomos ensinados que "atraímos o que vibramos". Mas a sabedoria ancestral nos mostra algo diferente e muito mais poderoso.
           </p>
         </div>
 
@@ -30,10 +30,10 @@ const Problem: React.FC = () => {
             </div>
           ))}
         </div>
-        
+
         <div className="mt-16 p-8 rounded-3xl bg-amber-950/20 border border-amber-900/30 text-center">
           <blockquote className="italic text-xl md:text-2xl text-amber-200">
-            "A resposta não está em mais uma técnica superficial, mas em um segredo científico e espiritual que permaneceu oculto por milênios."
+            "A resposta não está em mais uma técnica superficial, mas em um segredo espiritual que permaneceu oculto por milênios."
           </blockquote>
         </div>
       </div>
