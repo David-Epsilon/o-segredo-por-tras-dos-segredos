@@ -9,9 +9,9 @@ const AboutAuthor: React.FC = () => {
           <div className="md:w-1/3 shrink-0">
             <div className="relative">
               <img
-                src="https://picsum.photos/400/500?grayscale"
+                src="./author.png"
                 alt="Pedro Javier Molina"
-                className="rounded-2xl shadow-2xl border-4 border-slate-900 grayscale hover:grayscale-0 transition-all duration-500"
+                className="rounded-2xl shadow-2xl border-4 border-slate-900 hover:scale-105 transition-all duration-500 object-cover"
               />
               <div className="absolute -bottom-4 -right-4 bg-amber-500 text-slate-950 px-4 py-2 rounded-lg font-bold">Autor & Pesquisador</div>
             </div>
