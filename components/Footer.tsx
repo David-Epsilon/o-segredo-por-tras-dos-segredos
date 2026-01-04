@@ -1,5 +1,5 @@
-
 import React from 'react';
+import { Instagram, Youtube } from 'lucide-react';
 
 const Footer: React.FC = () => {
   return (
@@ -17,17 +17,21 @@ const Footer: React.FC = () => {
           <div>
             <h4 className="font-bold text-white mb-6 uppercase tracking-widest text-xs">Links Úteis</h4>
             <ul className="space-y-3 text-slate-500 text-sm">
-              <li><a href="#" className="hover:text-amber-500 transition-colors">Termos de Uso</a></li>
-              <li><a href="#" className="hover:text-amber-500 transition-colors">Políticas de Privacidade</a></li>
-              <li><a href="#" className="hover:text-amber-500 transition-colors">Aviso Legal</a></li>
-              <li><a href="#" className="hover:text-amber-500 transition-colors">Suporte ao Cliente</a></li>
+              <li><a href="#termos" className="hover:text-amber-500 transition-colors">Termos de Uso</a></li>
+              <li><a href="#privacidade" className="hover:text-amber-500 transition-colors">Políticas de Privacidade</a></li>
+              <li><a href="#aviso" className="hover:text-amber-500 transition-colors">Aviso Legal</a></li>
+              <li><a href="https://wa.me/5561996774134" target="_blank" rel="noopener noreferrer" className="hover:text-amber-500 transition-colors">Suporte ao Cliente</a></li>
             </ul>
           </div>
           <div>
             <h4 className="font-bold text-white mb-6 uppercase tracking-widest text-xs">Acompanhe o Autor</h4>
             <div className="flex space-x-4">
-              <a href="https://www.instagram.com/en.busca.del.samadhi/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-slate-900 flex items-center justify-center text-slate-400 hover:bg-amber-500 hover:text-slate-950 transition-all font-bold">IG</a>
-              <a href="#" className="w-10 h-10 rounded-full bg-slate-900 flex items-center justify-center text-slate-400 hover:bg-amber-500 hover:text-slate-950 transition-all font-bold">YT</a>
+              <a href="https://www.instagram.com/en.busca.del.samadhi/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-slate-900 flex items-center justify-center text-slate-400 hover:bg-amber-500 hover:text-slate-950 transition-all">
+                <Instagram size={20} />
+              </a>
+              <a href="https://www.youtube.com/@institutosamadhii" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-slate-900 flex items-center justify-center text-slate-400 hover:bg-amber-500 hover:text-slate-950 transition-all">
+                <Youtube size={20} />
+              </a>
             </div>
             <p className="mt-4 text-xs text-slate-600">@en.busca.del.samadhi</p>
           </div>

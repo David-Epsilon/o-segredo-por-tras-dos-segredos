@@ -15,6 +15,7 @@ import FAQ from './components/FAQ';
 import Footer from './components/Footer';
 import ExitPopup from './components/ExitPopup';
 import DavidEpsilonSimulation from './components/DavidSimulation';
+import Legal from './components/Legal';
 
 const App: React.FC = () => {
   const [showExitPopup, setShowExitPopup] = useState(false);
@@ -46,6 +47,7 @@ const App: React.FC = () => {
         <FAQ />
         <CTAFinal />
         <DavidEpsilonSimulation />
+        <Legal />
       </main>
       <Footer />
       {showExitPopup && <ExitPopup onClose={() => setShowExitPopup(false)} />}
