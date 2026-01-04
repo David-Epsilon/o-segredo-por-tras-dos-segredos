@@ -15,6 +15,7 @@ import FAQ from './components/FAQ';
 import Footer from './components/Footer';
 import ExitPopup from './components/ExitPopup';
 import DavidEpsilonSimulation from './components/DavidSimulation';
+import SegredoAplicado from './components/SegredoAplicado';
 import Legal from './components/Legal';
 
 const App: React.FC = () => {
@@ -46,6 +47,7 @@ const App: React.FC = () => {
         <Guarantee />
         <FAQ />
         <CTAFinal />
+        <SegredoAplicado />
         <DavidEpsilonSimulation />
         <Legal />
       </main>
